@@ -7,7 +7,17 @@ export default function Navbar() {
             <h1>WeKnowYouHungry</h1>
         </div>
         <div className="nav-centre">
-        <i classname="searchBar fa-light fa-magnifying-glass"></i>
+
+            <form action="">
+            <input
+            type="text"
+            placeholder="search here"
+            />
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            </form>
+            
         </div>
         <div className="nav-right">
             <ul className='nav-list'>

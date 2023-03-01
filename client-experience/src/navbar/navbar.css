@@ -1,3 +1,4 @@
+/*position of the size and position of the overall navbar  */
 .nav-top{
     width: 100%;
     height: 50px;
@@ -9,6 +10,7 @@
     font-family: 'Manrope', sans-serif;
 }
 
+/*space for the name of recipe website*/
 .nav-left, .nav-right{
     flex: 3;
     color: #d8e267;
@@ -16,6 +18,38 @@
     
 }
 
+/*created space for future search bar*/
 .nav-centre{
     flex: 6;
+}
+/*style the layout of navbar titles*/
+.nav-list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*navbar titles spacing*/
+.nav-list-items{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+
+/*create a search bar*/
+form input, form button{
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    border: #00584b;
+    background-color: #FEFEF2;
+}
+
+/*change colour of the button (search icon)*/
+form button{
+    color: #d8e267;
 }
