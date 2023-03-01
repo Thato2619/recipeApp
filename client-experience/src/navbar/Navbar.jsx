@@ -1,9 +1,11 @@
-import React from './navbar.css';
+import './navbar.css';
 
 export default function Navbar() {
   return (
     <div className='nav-top'>
-        Navbarrr
+        <div className="nav-left"></div>
+        <div className="nav-centre"></div>
+        <div className="nav-right"></div>
     </div>
   )
 }
