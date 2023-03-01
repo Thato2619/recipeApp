@@ -1,7 +1,13 @@
-import React from 'react'
+import Header from '../../header/Header';
+import Veggie from '../../components/Veggie';
+import Popular from '../../components/Popular';
+import './home.css'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className='home'>
+        <Header />
+        homepage
+    </div>
   )
 }
