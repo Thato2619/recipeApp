@@ -6,7 +6,9 @@ import './home.css'
 export default function Home() {
   return (
     <div className='home'>
-        <Header />
+       
+        <Veggie />
+        <Popular />
         homepage
     </div>
   )
